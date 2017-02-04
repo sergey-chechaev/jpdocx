@@ -1,5 +1,5 @@
 # docx_template_replace
-Replase special words in docx documentjjdkf
+Replase special words in docx document
 
 ## Installation
 
