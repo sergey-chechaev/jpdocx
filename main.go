@@ -8,7 +8,7 @@ import (
   "io/ioutil"
 )
 
-type Language struct {
+type Hash struct {
   Key  string
   Value string
 }
@@ -28,13 +28,13 @@ func main() {
       panic(err)
   }
 
-  var languages []Language
-  json.Unmarshal(bytes, &languages)
+  var hash_keys []Hash
+  json.Unmarshal(bytes, &hash_keys)
 
   docx1 := r.Editable()
-  for l := range languages {
-    str_key := fmt.Sprintf("{{%v}}", languages[l].Key)
-    docx1.Replace(str_key, languages[l].Value, -1)
+  for l := range hash_keys {
+    str_key := fmt.Sprintf("{{%v}}", hash_keys[l].Key)
+    docx1.Replace(str_key, hash_keys[l].Value, -1)
   }
 
   docx1.WriteToFile(path_to_str)
