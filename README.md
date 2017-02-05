@@ -1,5 +1,5 @@
 # docx_template_replace
-Replase special words in docx document
+Library for replase special words in microsoft word docx document.
 
 ## Installation
 
