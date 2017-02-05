@@ -1,4 +1,4 @@
-# Docx template replace
+# jpdocx
 Library for replacing special words in Microsoft word docx document. Library get stdin JSON format with key and value and takes two args path to docx file and path to result docx file
 
 ## Installation
@@ -7,11 +7,11 @@ If you haven't setup Go before, you need to first set a `GOPATH` (see [https://g
 
 To fetch and build the code:
 
-    $ go get github.com/sergey-chechaev/docx_template_replace/
+    $ go get github.com/sergey-chechaev/jpdocx/
     
 Then compile it with the go tool:
     
-    $ go install github.com/sergey-chechaev/docx_template_replace/
+    $ go install github.com/sergey-chechaev/jpdocx/
     
 ## Example Usage
 
