@@ -1,6 +1,4 @@
-[![Go Report Card](https://goreportcard.com/badge/github.com/sergey-chechaev/jpdocx)](https://goreportcard.com/report/github.com/sergey-chechaev/jpdocx)
-
-# jpdocx
+# jpdocx [![Go Report Card](https://goreportcard.com/badge/github.com/sergey-chechaev/jpdocx)](https://goreportcard.com/report/github.com/sergey-chechaev/jpdocx)
 Library for replacing special words in Microsoft word docx document. Library get stdin JSON format with key and value and takes two args path to docx file and path to result docx file
 
 ## Installation
