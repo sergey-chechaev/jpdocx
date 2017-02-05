@@ -23,10 +23,10 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 Excepteur {{val_2}} occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 ```
 Run:
-```
-echo "[{\"key\": \"val_1\", \"value\": \"exercitation\"},{\"key\": \"val_2\", \"value\": \"sint\"}]" |\
-jpdocx "/path/to/you/test.docx" "/path/to/new/file/new_test.docx"
-```
+
+    $ echo "[{\"key\": \"val_1\", \"value\": \"exercitation\"},{\"key\": \"val_2\", \"value\": \"sint\"}]" |\
+    $ jpdocx "/path/to/you/test.docx" "/path/to/new/file/new_test.docx"
+
 Output file new_test.docx:
 ```
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
