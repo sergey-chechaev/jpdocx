@@ -11,7 +11,7 @@ To fetch and build the code:
     
 Then compile it with the go tool:
     
-    $ go install github.com/sergey-chechaev/jpdocx/
+    $ go install github.com/sergey-chechaev/jpdocx
     
 ## Example Usage
 
