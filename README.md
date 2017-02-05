@@ -1,5 +1,5 @@
-# docx_template_replace
-Library for replase special words in microsoft word docx document.
+# Docx template replace
+Library for replacing special words in Microsoft word docx document. Library get stdin JSON format with key and value and takes two args path to docx file and path to result docx file
 
 ## Installation
 
