@@ -25,7 +25,7 @@ Excepteur {{val_2}} occaecat cupidatat non proident, sunt in culpa qui officia d
 Run:
 
     $ echo "[{\"key\": \"val_1\", \"value\": \"exercitation\"},{\"key\": \"val_2\", \"value\": \"sint\"}]" |\
-    jpdocx "/path/to/you/test.docx" "/path/to/new/file/new_test.docx"
+    $ jpdocx "/path/to/you/test.docx" "/path/to/new/file/new_test.docx"
 
 Output file new_test.docx:
 ```
