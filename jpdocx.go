@@ -13,10 +13,6 @@ type Hash struct {
 }
 
 func main() {
-	// bytes, err_stdin := ioutil.ReadAll(os.Stdin)
-	// if err_stdin != nil {
-	// 	panic(err_stdin)
-	// }
   params := os.Args[1]
   bytes := []byte(params)
 	path := os.Args[2]
