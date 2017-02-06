@@ -1,9 +1,8 @@
-package jpdocx
+package main
 
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"jpdocx/docx"
 	"os"
 )
@@ -14,12 +13,14 @@ type Hash struct {
 }
 
 func main() {
-	bytes, err_stdin := ioutil.ReadAll(os.Stdin)
-	if err_stdin != nil {
-		panic(err_stdin)
-	}
-	path := os.Args[1]
-	path_to := os.Args[2]
+	// bytes, err_stdin := ioutil.ReadAll(os.Stdin)
+	// if err_stdin != nil {
+	// 	panic(err_stdin)
+	// }
+  params := os.Args[1]
+  bytes := []byte(params)
+	path := os.Args[2]
+	path_to := os.Args[3]
 	path_str := fmt.Sprintf("%v", path)
 	path_to_str := fmt.Sprintf("%v", path_to)
 
