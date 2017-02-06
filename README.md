@@ -1,5 +1,5 @@
 # jpdocx
-Library for replacing special words in Microsoft word docx document. Library get stdin JSON format with key and value and takes two args path to docx file and path to result docx file
+Library for replacing special words in Microsoft word docx document. Library takes three args JSON params with key and value, path to docx file and path to result docx file
 
 ## Installation
 
