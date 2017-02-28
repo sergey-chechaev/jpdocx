@@ -1,5 +1,5 @@
-# jpdocx
-Library for replacing special words in Microsoft word docx document. Library takes three args JSON params with key and value, path to docx file and path to result docx file
+# jpdocx [![Go Report Card](https://goreportcard.com/badge/github.com/sergey-chechaev/jpdocx)](https://goreportcard.com/report/github.com/sergey-chechaev/jpdocx)
+Library for replacing special words in Microsoft word docx document. Library takes three args – JSON params with key and value, path to docx file and path to result docx file
 
 ## Installation
 
@@ -7,11 +7,11 @@ If you haven't setup Go before, you need to first set a `GOPATH` (see [https://g
 
 To fetch and build the code:
 
-    $ go get github.com/sergey-chechaev/jpdocx/
+    $ go get github.com/ST-Development/jpdocx/
     
 Then compile it with the go tool:
     
-    $ go install github.com/sergey-chechaev/jpdocx/
+    $ go install github.com/ST-Development/jpdocx/
     
 ## Example Usage
 
@@ -24,8 +24,8 @@ Excepteur {{val_2}} occaecat cupidatat non proident, sunt in culpa qui officia d
 ```
 Run:
 
-    $ jpdocx "[{\"key\": \"val_1\", \"value\": \"exercitation\"},{\"key\": \"val_2\", \"value\": \"sint\"}]" /
-    $ "/path/to/you/test.docx" "/path/to/new/file/new_test.docx"
+    $ jpdocx "{\"val_1\": \"exercitation\", \"val_2\": \"sint\"}" /
+    $ "/path/to/you/file.docx" "/path/to/you/new_file.docx"
 
 Output file new_test.docx:
 ```
@@ -34,5 +34,3 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 ```
-
-
