@@ -7,11 +7,11 @@ If you haven't setup Go before, you need to first set a `GOPATH` (see [https://g
 
 To fetch and build the code:
 
-    $ go get github.com/ST-Development/jpdocx/
+    $ go get github.com/sergey-chechaev/jpdocx/
     
 Then compile it with the go tool:
     
-    $ go install github.com/ST-Development/jpdocx/
+    $ go install github.com/sergey-chechaev/jpdocx/
     
 ## Example Usage
 
